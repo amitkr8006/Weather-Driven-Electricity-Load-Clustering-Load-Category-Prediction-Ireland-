@@ -1,0 +1,2 @@
+# Weather-Driven-Electricity-Load-Clustering-Load-Category-Prediction-Ireland-
+Models Ireland electricity demand (2015–2020) by merging national load with weather data, cleaning/outlier handling, and learning weather-day clusters (Ward linkage + K-Means). Clusters are assigned via KNN, then load is classified into Low/Medium/High using Decision Tree, Random Forest and Gradient Boosting (~0.91 accuracy); models saved.
